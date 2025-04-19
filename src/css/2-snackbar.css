@@ -2,7 +2,7 @@
   display: block;
 }
 
-button {
+.snackbar-btn {
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
@@ -17,11 +17,11 @@ button {
   transition-duration: 250ms;
 }
 
-button:hover {
+.snackbar-btn:hover {
   background-color: #6c8cff;
 }
 
-button:disabled {
+.snackbar-btn:disabled {
   background-color: #cccccc;
   color: #666666;
   border: 1px solid #999999;
@@ -35,7 +35,7 @@ img {
   height: auto;
 }
 
-input {
+form input {
   box-sizing: border-box;
   font-family: inherit;
   border: 1px solid #808080;
@@ -63,7 +63,7 @@ input:hover {
   flex-direction: column;
 }
 
-form input {
+.form input {
   width: 100%;
 }
 
@@ -72,8 +72,8 @@ fieldset {
   border-radius: 4px;
   height: 78px;
   justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 5px;
+  padding-top: 24px;
+  padding-bottom: 8px;
 }
 
 fieldset label {

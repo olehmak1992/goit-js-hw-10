@@ -1,5 +1,30 @@
-.timer-wrapper {
-  padding: 36px 156px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.back {
+  display: block;
 }
 
 button {
@@ -28,6 +53,12 @@ button:disabled {
   opacity: 0.6;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 input {
   box-sizing: border-box;
   font-family: inherit;
@@ -44,15 +75,11 @@ input:hover {
   border: 1px solid black;
 }
 
-input:active {
-  border: 1px solid #4e75ff;
-}
-
 .timer {
   display: flex;
-  width: 355px;
+  width: 346px;
   justify-content: space-between;
-  margin-top: 32px;
+  margin-top: 30px;
 }
 
 .field {
